@@ -1,0 +1,16 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    background: #F5F5F5;
+    background-repeat: no-repeat;
+    font-family: Cairo;
+}
+h1{
+    font-weight: 600;
+    color: #444444;
+}
+.marginalized-list li{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
