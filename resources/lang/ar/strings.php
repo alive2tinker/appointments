@@ -225,4 +225,7 @@ return [
     'delete' => "حذف",
     'appointment_delete_confirmation' => "تاكيد حذف الموعد",
     'are_you_sure' => "هل انت متاكد؟",
+    'saved_successfully' => "تم الحفط بنجاح",
+    'deleted_successfully' => "تم الحذف بنجاح",
+    'updated_successfully' => "تم التحديث بنجاح"
 ];

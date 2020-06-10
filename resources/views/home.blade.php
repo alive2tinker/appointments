@@ -36,21 +36,21 @@
                                         <label for="appointment-time">{{__('strings.appointment_time')}}</label>
                                         <select name="time" class="form-control" id="appointment-time">
                                             <option value="">{{__('strings.choose')}}</option>
-                                            <option value="7:00" @if(old('time') === "7:00") selected @endif>07:00</option>
-                                            <option value="7:30" @if(old('time') === "7:30") selected @endif>07:30</option>
-                                            <option value="8:00" @if(old('time') === "8:00") selected @endif>08:00</option>
-                                            <option value="8:30" @if(old('time') === "8:30") selected @endif>08:30</option>
-                                            <option value="9:00" @if(old('time') === "9:00") selected @endif>09:00</option>
-                                            <option value="9:30" @if(old('time') === "9:30") selected @endif>09:30</option>
+                                            <option value="07:00" @if(old('time') === "7:00") selected @endif>07:00</option>
+                                            <option value="07:30" @if(old('time') === "7:30") selected @endif>07:30</option>
+                                            <option value="08:00" @if(old('time') === "8:00") selected @endif>08:00</option>
+                                            <option value="08:30" @if(old('time') === "8:30") selected @endif>08:30</option>
+                                            <option value="09:00" @if(old('time') === "9:00") selected @endif>09:00</option>
+                                            <option value="09:30" @if(old('time') === "9:30") selected @endif>09:30</option>
                                             <option value="10:00" @if(old('time') === "10:00") selected @endif>10:00</option>
                                             <option value="10:30" @if(old('time') === "10:30") selected @endif>10:30</option>
                                             <option value="11:30" @if(old('time') === "11:00") selected @endif>11:00</option>
                                             <option value="11:00" @if(old('time') === "11:30") selected @endif>11:30</option>
                                             <option value="12:30" @if(old('time') === "12:00") selected @endif>12:00</option>
                                             <option value="12:30" @if(old('time') === "12:30") selected @endif>12:30</option>
-                                            <option value="1:00" @if(old('time') === "1:00") selected @endif>01:00</option>
-                                            <option value="1:30" @if(old('time') === "1:30") selected @endif>01:30</option>
-                                            <option value="2:00" @if(old('time') === "2:00") selected @endif>02:00</option>
+                                            <option value="01:00" @if(old('time') === "1:00") selected @endif>01:00</option>
+                                            <option value="01:30" @if(old('time') === "1:30") selected @endif>01:30</option>
+                                            <option value="02:00" @if(old('time') === "2:00") selected @endif>02:00</option>
                                         </select>
                                     </div>
                                 </div>
